@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+.container5 {
+    position: relative;
+    height: auto;
+    overflow: hidden;
+    padding-bottom: 8px;
+    max-width: 1200px;
+    margin: 0 auto;
+    /* background-color: tomato; */
+}
+
+.kontentk {
+    position: relative;
+    width: 95%;
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 5;
+    padding-block: 3rem;
+}
+
+.kontentk .keterangan {
+    text-align: center;
+    font-weight: 400;
+    font-family: 'Josefin Sans', sans-serif;
+    color: black;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 40px;
+}
+
+.kontentk .judul {
+    text-align: center;
+    font-weight: 800;
+    font-family: arial;
+    color: black;
+    font-size: 24px;
+    line-height: 30px;
+    margin-top: 60px;
+    letter-spacing: 0.2em;
+}
+
+.kartukontak {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1rem;
+    width: 100%;
+    margin-inline: auto;
+    margin-top: 1rem;
+    font-family: 'Josefin Sans', sans-serif;
+    /* background-color: tomato; */
+}
+
+.kartu {
+    position: relative;
+    border-radius: 10px;
+    padding: 1rem 1rem;
+    margin-block: 15px;
+    background-color: #FFABD4;
+}
+
+.kartunama {
+    min-width: 15rem;
+    min-height: 11rem;
+    max-width: 35rem;
+    flex: 1 1;
+    text-shadow: 2px 1px 10px #0000002a;
+    box-shadow: rgba(0, 0, 0, 0.233) 0 0 8px 0;
+}
+
+.kartukontak .namakn {
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: black;
+    font-weight: 800;
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.kartukontak .icon {
+    text-align: center;
+    letter-spacing: 10px;  
+}
+
+.icon a {
+    text-decoration: none;
+}
+
+.grayosh{
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: soft-light;
+    position: relative;
+    overflow: hidden;
+    transition: ease-out 300ms;
+}
+
+
+.grayosh:before {
+    content: "";
+    display: block;
+    width: 120px;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    opacity: 0;
+    background: white;
+    box-shadow: 0 0 20px 3px white;
+    -webkit-transform: skewX(-30deg);
+    -moz-transform: skewX(-30deg);
+    -ms-transform: skewX(-30deg);
+    -o-transform: skewX(-30deg);
+    transform: skewX(-30deg);
+    -webkit-animation: shinyy 4s ease 0s infinite;
+    -moz-animation: shinyy 4s ease 0s infinite;
+    animation: shinyy 4s ease 0s infinite;
+}
+
+@-webkit-keyframes shinyy {
+    from {
+    opacity: 0;
+    left: -250%;
+    }
+    50% {
+    opacity: 0.3;
+    }
+    to {
+    opacity: 0;
+    left: 550%;
+    }
+}
+@-moz-keyframes shinyy {
+    from {
+    opacity: 0;
+    left: -250%;
+    }
+    50% {
+    opacity: 0.3;
+    }
+    to {
+    opacity: 0;
+    left: 550%;
+    }
+}
+@keyframes shinyy {
+    from {
+    opacity: 0;
+    left: -250%;
+    }
+    50% {
+    opacity: 0.3;
+    }
+    to {
+    opacity: 0;
+    left: 550%;
+    }
+}
+
+
